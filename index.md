@@ -83,7 +83,7 @@ We wanted to eventually make the worker-order assignment not demand our manager'
 
 The table linen rental business was doing fine, but we had all these technologies and a vast amount of know-how in the industry, which we didn't feel we were using to the fullest.
 
-So we decided to sell our byproducts and create our own SaaS solution for event rental companies.
+So we decided to sell our byproducts by creating our own SaaS solution for event rental companies.
 
 ![](blomerius.png  "Site built with our SaaS system")
 
