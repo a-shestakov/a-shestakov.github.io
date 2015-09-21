@@ -185,8 +185,6 @@ In my work I want to create something that brings people joy.</p>
 
 <p>We wanted to eventually make the worker-order assignment not demand our manager's attention. To achieve this, I created an interactive system for workers, where they could pick the most convenient orders for themselves. Of course, there was often a fight over the most convenient and profitable orders. As a solution I created a realtime queueing system that allowed workers to not step on each others' toes. Everyone in the queue knew when their turn is and who is selecting orders now. I tried to create this system using <strong>React</strong>/<strong>Clojurescript</strong>, just for fun, but it turned out to be difficult to debug, so I started from scratch in <strong>Angular</strong>.</p>
 
-<p><img src="unused-clojurescript.png" title="Unused Clojurescript code" alt="alt text" /></p>
-
 <hr />
 
 <p>The table linen rental business was doing fine, but we had all these technologies and a vast amount of know-how in the industry, which we didn't feel we were using to the fullest.</p>
@@ -194,8 +192,6 @@ In my work I want to create something that brings people joy.</p>
 <p>So we decided to sell our byproducts and create our own SaaS solution for event rental companies.</p>
 
 <p><em>For the first 5 months we didn't write any code at all, only creating specs and dreaming up database structure.</em> My boss was not a developer, but he wanted to know all the details of the system, so we created a spec format that could be reasonably easily understood by a non-programmer, yet was highly specific. Our specs were written in Russian, basically 1 test per <strong>Ruby</strong> code line. This way, boss could understand most details of the system without being a programmer.</p>
-
-<p><img src="spec.png" title="Our specs before being turned into Rspec tests" alt="alt text" /></p>
 
 <p>In total, our SaaS system has about 1000 tests.</p>
 
@@ -205,8 +201,6 @@ In my work I want to create something that brings people joy.</p>
 — Phil Karlton</p></blockquote>
 
 <p>We used Ruby on Rails for backend, and <strong>Angular</strong> + <strong>Coffeescript</strong> + <strong>SASS</strong> for frontend. For storage we used <strong>Postgres</strong>, because Postgres schemas allow to create multitenant applications.</p>
-
-<p><img src="db.png" title="Some tables are public, other reside inside Postgres schemas" alt="alt text" /></p>
 
 <p>It was quite a challenge to make the UI elements we designed work everywhere consistently. Every day I felt miserable and stupid, banging my head against some issue with <strong>Angular</strong>-<strong>jQuery</strong> integration or strange JS execution bugs. I felt the need to be a part of a larger team where I could at least hope for some inspiration or advice.</p>
 

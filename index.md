@@ -79,8 +79,6 @@ I can't take credit for all of the above, because the interaction design was mos
 
 We wanted to eventually make the worker-order assignment not demand our manager's attention. To achieve this, I created an interactive system for workers, where they could pick the most convenient orders for themselves. Of course, there was often a fight over the most convenient and profitable orders. As a solution I created a realtime queueing system that allowed workers to not step on each others' toes. Everyone in the queue knew when their turn is and who is selecting orders now. I tried to create this system using **React**/**Clojurescript**, just for fun, but it turned out to be difficult to debug, so I started from scratch in **Angular**.
 
-![alt text](unused-clojurescript.png  "Unused Clojurescript code")
-
 -----------------------
 
 The table linen rental business was doing fine, but we had all these technologies and a vast amount of know-how in the industry, which we didn't feel we were using to the fullest.
@@ -88,8 +86,6 @@ The table linen rental business was doing fine, but we had all these technologie
 So we decided to sell our byproducts and create our own SaaS solution for event rental companies.
 
 *For the first 5 months we didn't write any code at all, only creating specs and dreaming up database structure.* My boss was not a developer, but he wanted to know all the details of the system, so we created a spec format that could be reasonably easily understood by a non-programmer, yet was highly specific. Our specs were written in Russian, basically 1 test per **Ruby** code line. This way, boss could understand most details of the system without being a programmer.
-
-![alt text](spec.png  "Our specs before being turned into Rspec tests")
 
 In total, our SaaS system has about 1000 tests.
 
@@ -99,8 +95,6 @@ We designed this system completely from scratch. I remember having long discussi
 > — Phil Karlton
 
 We used Ruby on Rails for backend, and **Angular** + **Coffeescript** + **SASS** for frontend. For storage we used **Postgres**, because Postgres schemas allow to create multitenant applications.
-
-![alt text](db.png  "Some tables are public, other reside inside Postgres schemas")
 
 It was quite a challenge to make the UI elements we designed work everywhere consistently. Every day I felt miserable and stupid, banging my head against some issue with **Angular**-**jQuery** integration or strange JS execution bugs. I felt the need to be a part of a larger team where I could at least hope for some inspiration or advice.
 
