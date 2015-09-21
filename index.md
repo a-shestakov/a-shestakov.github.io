@@ -15,7 +15,7 @@ Users could leave a note to a friend who was yet to install the app. This motiva
 
 --------------
 
-Then I went to work for a company that provided table linens for events. I fell in love with them because they were perfectionists and didn't allow the tiniest detail to go unnoticed. I've built an **Adobe Flash** app to showcase their products:
+Then I went to work for a company that provided table linens for events. I fell in love with them because they were perfectionists and didn't allow the tiniest detail to go unnoticed, which is a rare occurence in my country. I've built an **Adobe Flash** app to showcase their products:
 
 ![alt text](studio-screen.png  "Logo Title Text 1")
 
