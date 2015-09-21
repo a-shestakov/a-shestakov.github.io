@@ -19,7 +19,7 @@ Then I went to work for a company that provided table linens for events. I fell 
 
 ![alt text](studio-screen.png  "Logo Title Text 1")
 
-This thing consists of 27 different layers. It even supports varying shadow intensity that depends on item color. In total, this editor requires *about 1000 image files, all of them generated from a 2GB PSB source*. I wrote a suite of **Photoshop scripts** that created images for the main view, the previews and the opacity masks.
+This thing consists of 27 layers. It even supports varying shadow intensity that depends on item color. In total, this editor requires *about 1000 image files, all of them generated from a 2GB PSB source*. I wrote a suite of **Photoshop scripts** that created images for the main view, the previews and the opacity masks.
 
 ![alt text](editor.png  "Editor")
 
