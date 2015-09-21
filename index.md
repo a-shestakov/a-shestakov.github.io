@@ -1,4 +1,4 @@
-<img style='float:left; width: 148px; margin-right: 20px;' src='file:///Users/andrey/Desktop/ashest.github.io/ebach.jpg'>
+<img style='float:left; width: 148px; margin-right: 20px;' src='ebach.jpg'>
 
 Hi, my name is Andy. 
 In real life I'm a lover of music, art and beautiful explanations.
