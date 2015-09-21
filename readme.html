@@ -102,7 +102,7 @@ sup {
 <p><img style='float:left; width: 148px; margin-right: 20px;' src='file:///Users/andrey/Desktop/ashest.github.io/ebach.jpg'></p>
 
 <p>Hi, my name is Andy.
-In real life I'm a lover of music, art and beautiful explanations.
+In real life I'm a lover of music, women, art and beautiful explanations.
 In my work I want to create something that brings people joy.</p>
 
 <h3>Works from 2008 to 2015</h3>
@@ -133,6 +133,8 @@ In my work I want to create something that brings people joy.</p>
 
 <p>So we decided to create <em>a whole ecommerce solution in Flash</em>. Now, of course Adobe has created a UI components and layout system specifically for this purpose, called <strong>Flex</strong>, but it was too clumsy and unresponsive for our purposes, so we decided to program everything from scratch.</p>
 
+<p><video src="file:///Users/andrey/Desktop/ashest.github.io/calculation.mp4" controls></video></p>
+
 <p>I implemented, among other things</p>
 
 <ul>
@@ -144,7 +146,7 @@ In my work I want to create something that brings people joy.</p>
 </ul>
 
 
-<p>Basically for some tasks I needed to recreate parts of HTML, because Flash's HTML and CSS support is really rudimentary. I wrote a whole page of hacks to process <strong>Markdown</strong> into something that looks like <strong>HTML</strong>+<strong>CSS</strong>. It's really absurd what I had to do to make this:</p>
+<p>Basically for some tasks I needed to recreate parts of HTML, because Flash's HTML and CSS support is really rudimentary. I wrote a whole page of hacks to process Markdown into something that looks like HTML+CSS. It's really absurd what I had to do to make this:</p>
 
 <p><img src="file:///Users/andrey/Desktop/ashest.github.io/unprocessed-markdown.png" title="Editor" alt="alt text" /></p>
 
@@ -166,22 +168,9 @@ In my work I want to create something that brings people joy.</p>
 
 <p>Business was growing rapidly, achieving tens of orders on the same day in summer. All these orders required setup and teardown, so we needed systems for managing workers.</p>
 
-<p>I created, using <strong>Ruby on Rails</strong> and <strong>Angular</strong>, a highly responsive worker management solution. Using it, the manager can assign orders to setup and teardown workers, record and view their performance metrics.</p>
+<p>I created, using <strong>Ruby on Rails</strong> and <strong>Angular</strong>, a highly responsive worker management solution. Using it, the manager can assign orders to setup and teardown workers, influence and view their performance metrics.</p>
 
-<p>Because it's an internal tool, I can't show it here, but it allows a single manager to manage about 50 simultaneous events, which means:</p>
-
-<ul>
-<li>receiving customer's order</li>
-<li>making sure the payment is made in time</li>
-<li>manage shipping</li>
-<li>assign orders to workers</li>
-<li>making sure they arrive on time</li>
-<li>record customer feedback and relay it to workers and laundry</li>
-<li>answer any customer question regarding their order in less than 15 seconds</li>
-</ul>
-
-
-<p>I can't take credit for all of the above, because the interaction design was mostly done by my boss. I just made sure that every feature was implemented as fully as physically possible.</p>
+<p><video src="file:///Users/andrey/Desktop/ashest.github.io/dispatcher.mp4" controls></video></p>
 
 <p>We wanted to eventually make the worker-order assignment not demand our manager's attention. To achieve this, I created an interactive system for workers, where they could pick the most convenient orders for themselves. Of course, there was often a fight over the most convenient and profitable orders. As a solution I created a realtime queueing system that allowed workers to not step on each others' toes. Everyone in the queue knew when their turn is and who is selecting orders now. I tried to create this system using <strong>React</strong>/<strong>Clojurescript</strong>, just for fun, but it turned out to be difficult to debug, so I started from scratch in <strong>Angular</strong>.</p>
 
@@ -193,7 +182,7 @@ In my work I want to create something that brings people joy.</p>
 
 <p>So we decided to sell our byproducts and create our own SaaS solution for event rental companies.</p>
 
-<p><em>For the first 5 months we didn't write any code at all, only creating specs and dreaming up database structure.</em> My boss was not a developer, but he wanted to know all the details of the system, so we created a spec format that could be reasonably easily understood by a non-programmer, yet was highly specific. Our specs were written in Russian, basically 1 test per <strong>Ruby</strong> code line. This way, boss could understand most details of the system without being a programmer.</p>
+<p><em>For the first 5 months we didn't write any code at all, only creating specs and dreaming up database structure.</em> My boss was not a developer, but he wanted to know all the details of the system, so we created a spec format that could be reasonably easily understood by a non-programmer, yet was highly specific. Our specs were written in Russian, basically 1 test per <strong>Ruby</strong> code line.</p>
 
 <p><img src="file:///Users/andrey/Desktop/ashest.github.io/spec.png" title="Our specs before being turned into Rspec tests" alt="alt text" /></p>
 
@@ -204,7 +193,7 @@ In my work I want to create something that brings people joy.</p>
 <blockquote><p>There are only two hard things in Computer Science: cache invalidation and naming things.
 — Phil Karlton</p></blockquote>
 
-<p>We used Ruby on Rails for backend, and <strong>Angular</strong> + <strong>Coffeescript</strong> + <strong>SASS</strong> for frontend. For storage we used <strong>Postgres</strong>, because Postgres schemas allow to create multitenant applications.</p>
+<p>We used Ruby on Rails for backend, and <strong>Angular</strong> + <strong>Coffeescript</strong> + <strong>SASS</strong> for frontend. For storage we used Postgres, because <strong>Postgres</strong> schemas allow to create multitenant applications.</p>
 
 <p><img src="file:///Users/andrey/Desktop/ashest.github.io/db.png" title="Some tables are public, other reside inside Postgres schemas" alt="alt text" /></p>
 
@@ -216,12 +205,11 @@ In my work I want to create something that brings people joy.</p>
 <li>designed  database structure</li>
 <li>programmed controllers and models in <strong>Ruby on Rails</strong></li>
 <li>set up a web server (<strong>nginx</strong> + <strong>Phusion Passenger</strong>)</li>
-<li>implemented delayed processing of uploaded photos with <strong>delayed_job</strong></li>
+<li>implemented delayed processing of uploaded photos</li>
 <li>interfaced our system with third-party APIs for payments, geolocation and Russian morphology</li>
 <li>implemented internationalization</li>
 <li>programmed the UI in <strong>Angular</strong> + <strong>jQuery</strong></li>
 <li>managed a remote team of CSS wizards</li>
-<li>programmed export of user data to beautiful Excel documents with <strong>AXLSX</strong></li>
 </ul>
 
 
@@ -229,48 +217,28 @@ In my work I want to create something that brings people joy.</p>
 
 <ul>
 <li>graphic design in <strong>Sketch</strong> and interaction design</li>
-<li>functional specifications</li>
 <li>quality assurance</li>
+<li>excellent mockups and specifications</li>
 </ul>
 
 
-<p>We scored 11 of 12 on the Joel Test (no schedule 😀). We used <strong>Trello</strong> as a planning tool and a bug database.</p>
+<p>We scored 11 on the Joel Test (no schedule 😀). We used <strong>Trello</strong> as a planning tool and a bug database.</p>
 
-<p>In the end we achieved everything we planned regarding this project, albeit at the cost of health and personal relationships. I feel that maybe I can overcome this tendency if I know best industry practices, that's why I'm seeking some sort of team where programmers are a bit more specialized. I still believe that developers should understand the whole stack.</p>
+<p>We achieved everything we planned regarding this project, albeit at the cost of health and personal relationships. I feel that maybe I can overcome this tendency if I know best industry practices, that's why I'm seeking some sort of team where programmers are a bit more specialized. I still believe that developers should understand the whole stack.</p>
 
 <p><video src="file:///Users/andrey/Desktop/ashest.github.io/article.mp4" controls></video></p>
 
-<p>I am proud of the work I've done for PIFA, it's the most beautiful thing I've ever produced. We received some very kind words such as “this feels like iOS”. I'd say iOS beta.
-This system is only 3 months old and it's already used by about 50 companies. You can browse them here: <a href="http://pifakit.ru">pifakit.ru</a>.</p>
+<p>In the end, I am proud of the work I've done for PIFA, it's the most beautiful thing I've ever produced. We received some very kind words such as “this feels like iOS”. I'd say iOS beta.
+This system is only 3 months old and it's already used by about 50 companies.</p>
+
+<p>You can browse them here: <a href="http://pifakit.ru">pifakit.ru</a>.</p>
 
 <p>A good example of the site made with PIFA's system is <a href="http://blomerius.pifakit.ru">blomerius.pifakit.ru</a>.</p>
 
 <hr />
 
-<p>Other works I did in the meantime (without links):</p>
+<p>At the moment I'm seeking the next company to fall in love with.</p>
 
-<ul>
-<li>a map of tram stops I made for my city using <strong>D3</strong>. It was supposed to allow the authorities to efficiently spend the tram stop renovation budget.</li>
-<li>software for classification of geophysical signals with <strong>Hierarchical Temporal Memory (NuPIC)</strong></li>
-</ul>
-
-
-<hr />
-
-<p>Stuff I'm interested in personally:</p>
-
-<ul>
-<li>rational decision making</li>
-<li>generative art (especially recent developments using deep learning, such as StyleNet)</li>
-<li>swing dancing</li>
-<li>optimizing all areas of life</li>
-</ul>
-
-
-<hr />
-
-<p>At the moment I'm seeking the next company to fall in love with. It's important for me to feel that my work is helping people.</p>
-
-<p>If you like my style, please contact me via email: <a href="mailto:andreyshestakov@icloud.com">andreyshestakov@icloud.com</a></p>
+<p>If you like my style, contact me via email: <a href="mailto:andreishestackov@gmail.com">andreishestackov@gmail.com</a></p>
 </body>
 </html>
