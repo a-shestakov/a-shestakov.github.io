@@ -104,6 +104,7 @@ What I did:
 * set up a web server (**nginx** + **Phusion Passenger**)
 * implemented delayed processing of uploaded photos with **delayed_job**
 * interfaced our system with third-party APIs for payments, geolocation and Russian morphology
+* set up AWS backups
 * implemented internationalization
 * programmed the UI in **Angular** + **jQuery**
 * managed a remote team of CSS wizards
@@ -115,7 +116,7 @@ What my boss did:
 * functional specifications
 * quality assurance
 
-We scored 11 of 12 on the Joel Test (no schedule 😀). We used **Trello** as a planning tool and a bug database. 
+We scored 11 of 12 on the Joel Test (no schedule 😀). We used **Trello** as a planning tool and a bug database (around 2500 cards in total).
 
 In the end we achieved everything we planned regarding this project, albeit at the cost of health and personal relationships. I feel that maybe I can overcome this tendency if I know best industry practices, that's why I'm seeking some sort of team where programmers are a bit more specialized. I still believe that developers should understand the whole stack.
 
