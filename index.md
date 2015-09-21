@@ -17,15 +17,15 @@ Users could leave a note to a friend who was yet to install the app. This motiva
 
 Then I went to work for a company that provided table linens for events. I fell in love with them because they were perfectionists and didn't allow the tiniest detail to go unnoticed. I've built an **Adobe Flash** app to showcase their products:
 
-![alt text](file:///Users/andrey/Desktop/ashest.github.io/studio-screen.png  "Logo Title Text 1")
+![alt text](studio-screen.png  "Logo Title Text 1")
 
 This thing consists of 27 different layers. It even supports varying shadow intensity that depends on item color. In total, this editor requires *about 1000 image files, all of them generated from a 2GB PSB source*. I wrote a suite of **Photoshop scripts** that created images for the main view, the previews and the opacity masks.
 
-![alt text](file:///Users/andrey/Desktop/ashest.github.io/editor.png  "Editor")
+![alt text](editor.png  "Editor")
 
 That's when I experienced what it takes to build something beautiful. We painstakingly hunted for pixels that were of slightly wrong color, we fixed opacity masks until everything fit together nicely, and we repeated this process once more when the boss decided to hire another 3D-modeler and start from scratch.
 
-![alt text](file:///Users/andrey/Desktop/ashest.github.io/matrix.png  "One of the many supporting files")
+![alt text](matrix.png  "One of the many supporting files")
 
 -----------------------
 
@@ -43,11 +43,11 @@ I implemented, among other things
 
 Basically for some tasks I needed to recreate parts of HTML, because Flash's HTML and CSS support is really rudimentary. I wrote a whole page of hacks to process **Markdown** into something that looks like **HTML**+**CSS**. It's really absurd what I had to do to make this:
 
-![alt text](file:///Users/andrey/Desktop/ashest.github.io/unprocessed-markdown.png  "Editor")
+![alt text](unprocessed-markdown.png  "Editor")
 
 look like this:
 
-![alt text](file:///Users/andrey/Desktop/ashest.github.io/processed-markdown.png  "Editor")
+![alt text](processed-markdown.png  "Editor")
 
 ***As a result of this unreasonable perfectionism we had pixel-perfect cross-platform UI, every font we needed, smooth transitions and basically a single-page async app, in 2011.***
 
@@ -79,7 +79,7 @@ I can't take credit for all of the above, because the interaction design was mos
 
 We wanted to eventually make the worker-order assignment not demand our manager's attention. To achieve this, I created an interactive system for workers, where they could pick the most convenient orders for themselves. Of course, there was often a fight over the most convenient and profitable orders. As a solution I created a realtime queueing system that allowed workers to not step on each others' toes. Everyone in the queue knew when their turn is and who is selecting orders now. I tried to create this system using **React**/**Clojurescript**, just for fun, but it turned out to be difficult to debug, so I started from scratch in **Angular**.
 
-![alt text](file:///Users/andrey/Desktop/ashest.github.io/unused-clojurescript.png  "Unused Clojurescript code")
+![alt text](unused-clojurescript.png  "Unused Clojurescript code")
 
 -----------------------
 
@@ -89,7 +89,7 @@ So we decided to sell our byproducts and create our own SaaS solution for event 
 
 *For the first 5 months we didn't write any code at all, only creating specs and dreaming up database structure.* My boss was not a developer, but he wanted to know all the details of the system, so we created a spec format that could be reasonably easily understood by a non-programmer, yet was highly specific. Our specs were written in Russian, basically 1 test per **Ruby** code line. This way, boss could understand most details of the system without being a programmer.
 
-![alt text](file:///Users/andrey/Desktop/ashest.github.io/spec.png  "Our specs before being turned into Rspec tests")
+![alt text](spec.png  "Our specs before being turned into Rspec tests")
 
 In total, our SaaS system has about 1000 tests.
 
@@ -100,7 +100,7 @@ We designed this system completely from scratch. I remember having long discussi
 
 We used Ruby on Rails for backend, and **Angular** + **Coffeescript** + **SASS** for frontend. For storage we used **Postgres**, because Postgres schemas allow to create multitenant applications.
 
-![alt text](file:///Users/andrey/Desktop/ashest.github.io/db.png  "Some tables are public, other reside inside Postgres schemas")
+![alt text](db.png  "Some tables are public, other reside inside Postgres schemas")
 
 It was quite a challenge to make the UI elements we designed work everywhere consistently. Every day I felt miserable and stupid, banging my head against some issue with **Angular**-**jQuery** integration or strange JS execution bugs. I felt the need to be a part of a larger team where I could at least hope for some inspiration or advice.
 
@@ -126,7 +126,7 @@ We scored 11 of 12 on the Joel Test (no schedule 😀). We used **Trello** as a 
 
 In the end we achieved everything we planned regarding this project, albeit at the cost of health and personal relationships. I feel that maybe I can overcome this tendency if I know best industry practices, that's why I'm seeking some sort of team where programmers are a bit more specialized. I still believe that developers should understand the whole stack.
 
-<video src="file:///Users/andrey/Desktop/ashest.github.io/article.mp4" controls></video>
+<video src="article.mp4" controls></video>
 
 I am proud of the work I've done for PIFA, it's the most beautiful thing I've ever produced. We received some very kind words such as “this feels like iOS”. I'd say iOS beta.
 This system is only 3 months old and it's already used by about 50 companies. You can browse them here: [pifakit.ru](http://pifakit.ru). 
