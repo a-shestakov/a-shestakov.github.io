@@ -85,14 +85,13 @@ The table linen rental business was doing fine, but we had all these technologie
 
 So we decided to sell our byproducts and create our own SaaS solution for event rental companies.
 
+![](blomerius.png  "Site built with our SaaS system")
+
 *For the first 5 months we didn't write any code at all, only creating specs and dreaming up database structure.* My boss was not a developer, but he wanted to know all the details of the system, so we created a spec format that could be reasonably easily understood by a non-programmer, yet was highly specific. Our specs were written in Russian, basically 1 test per **Ruby** code line. This way, boss could understand most details of the system without being a programmer.
 
 In total, our SaaS system has about 1000 tests.
 
-We designed this system completely from scratch. I remember having long discussions about the order of menu items, about names of different things (Phil Karlton was cited frequently), about all kinds of little fiddly things you really don't think about when you are using the app.
-
-> There are only two hard things in Computer Science: cache invalidation and naming things.
-> — Phil Karlton
+We designed this system completely from scratch. I remember having long discussions about the order of menu items, about names of different things, about all kinds of little fiddly things you really don't think about when you are using the app.
 
 We used Ruby on Rails for backend, and **Angular** + **Coffeescript** + **SASS** for frontend. For storage we used **Postgres**, because Postgres schemas allow to create multitenant applications.
 
