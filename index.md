@@ -55,7 +55,7 @@ On the server side we implemented a custom booking system in **PHP**, because th
 
 ***This system allowed my client to process orders in 15 seconds, instead of the industry standard—1 day.***
 
-<video src="file:///Users/andrey/Desktop/ashest.github.io/order.mp4" controls></video>
+<video src="order.mp4" controls></video>
 
 This thing is used by approximately 1000 returning customers. I imagine they are very happy.
 
