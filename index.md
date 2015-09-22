@@ -17,15 +17,16 @@ Users could leave a note to a friend who was yet to install the app. This motiva
 
 Later I started working for a company that provided table linens for events. I fell in love with them because they were perfectionists and didn't allow the tiniest detail to go unnoticed, which is a rare occurence in my country. I've built an **Adobe Flash** app to showcase their products:
 
-![alt text](studio-screen.png  "Logo Title Text 1")
+![](studio-screen.png)
+![](little-studios.png)
 
 This product consists of 27 layers. It even supports varying shadow intensity that depends on item color. In total, this editor requires *about 1000 image files, all of them generated from a 2GB PSB source*. I wrote a suite of **Photoshop scripts** that created images for the main view, the previews and the opacity masks.
 
-![alt text](editor.png  "Editor")
+![](editor.png  "Editor")
 
 That's when I experienced what it takes to build something beautiful. We painstakingly hunted for pixels that were slightly the wrong color, we fixed opacity masks until everything fit together nicely, and we repeated this process once more when the boss decided to hire another 3D-modeler and start from scratch.
 
-![alt text](matrix.png  "One of the many supporting files")
+![](matrix.png  "One of the many supporting files")
 
 -----------------------
 
@@ -43,11 +44,11 @@ I implemented, among other things
 
 Basically, for some tasks I needed to recreate parts of HTML, because Flash's HTML and CSS support is really rudimentary. I wrote a whole page of hacks to process **Markdown** into something that looks like **HTML**+**CSS**. It's really absurd what I had to do to make this:
 
-![alt text](unprocessed-markdown.png  "Editor")
+![](unprocessed-markdown.png  "Editor")
 
 look like this:
 
-![alt text](processed-markdown.png  "Editor")
+![](processed-markdown.png  "Editor")
 
 ***As a result of this unreasonable perfectionism we had pixel-perfect cross-platform UI, every font we needed, smooth transitions and basically a single-page async app, in 2011.***
 
