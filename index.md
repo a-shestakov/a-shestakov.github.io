@@ -7,7 +7,7 @@ On a professional level, I want to create something that brings people joy.
 ### Employment from 2008 to 2015
 
 
-On the rise of Russian Facebook clone vk.com, I've single-handedly created an app that was installed by *500 000 people*, by virtue of having “viral” properties. I did the **Flash** programming and all the graphics myself.
+On the rise of Russian Facebook clone vk.com, I've single-handedly created a VK app that was installed by *500 000 users*, by virtue of having “viral” properties. I did the **Flash** programming and all the graphics myself.
 
 The app was called “The fridge door”. Users could go to their friends’ fridges and leave post-it notes or magnets there. These magnets featured memes like the Rage Guy. Apparently, in 2008, I invented Facebook-like stickers.
 
@@ -20,7 +20,7 @@ Later I started working for a company that provided table linens for events. I f
 ![](studio-screen.png)
 ![](little-studios.png)
 
-This product consists of 27 layers. It even supports varying shadow intensity that depends on item color. In total, this editor requires *about 1000 image files, all of them generated from a 2GB PSB source*. I wrote a suite of **Photoshop scripts** that created images for the main view, the previews and the opacity masks.
+This “design view” consists of 27 layers. It even supports varying shadow intensity that depends on item color. In total, it requires *about 1000 image files, all of them generated from a 2GB PSB source*. I wrote a suite of **Photoshop scripts** that created images for the main view, the previews and the opacity masks.
 
 ![](editor.png  "Editor")
 
